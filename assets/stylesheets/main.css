@@ -104,5 +104,32 @@ img[alt="main-image"] {
  .main-content{
   width: 45%;
   margin: 55px auto 10px auto;
-  background: grey;
+ 
+  position: relative;
  }
+
+
+ .i-tags {
+   position: absolute;
+   right: 0;
+   bottom: 0; 
+ }
+
+ .i-tags i {
+  font-size: 22px;
+  margin-left: 20px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 50%;
+  padding: 5px;
+  
+ }
+
+ .by-line {
+  position: relative;
+  left: 0;
+  
+
+ }
+
+ 
