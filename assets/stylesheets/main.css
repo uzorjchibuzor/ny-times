@@ -418,6 +418,7 @@ img[alt="main-image"] {
    footer{
      width: 95%;
      margin: 0 auto;
+     margin-bottom: 20px;
    }
    footer hr{
      margin: 0px;
@@ -451,10 +452,40 @@ img[alt="main-image"] {
      margin:auto;
    }
 
-   .quick-links p, .quick-links a {
+   .quick-links p {
      display: block;
+     height: 25px;
+     font-weight: 700;
    }
 
    .separate {
      border-left: 1px solid #e5e5e5;
+     padding-left: 10px;
+   }
+
+   .quick-links a{
+     text-decoration: none;
+     display: block;
+     cursor: pointer; 
+   color: rgb(0, 0, 0);
+   font-family: nyt-franklin;
+   font-size: 14px;
+   font-weight: 500;
+   height: 23px;
+   line-height: 16px;
+   }
+   .quick-links a:hover{
+     text-decoration: underline;
+   }
+
+   a.dark-links{
+    color: rgb(0, 0, 0);
+    font-family: nyt-franklin;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+   }
+   .dark-links img{
+    width: 14%;
+    vertical-align: text-bottom;
    }
