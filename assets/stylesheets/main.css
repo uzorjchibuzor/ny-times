@@ -347,7 +347,7 @@ img[alt="main-image"] {
   .subscribe-form {
     margin: 20px auto;
     display: inline-block;
-    width: 53%;
+    width: 57%;
   }
 
   .subscribe {
@@ -369,7 +369,7 @@ img[alt="main-image"] {
     border:1px solid #e4e4e4;
     box-shadow: none; 
     padding: 4px 4px 4px 8px;
- 
+    margin-bottom: 8px;
     
   }
 
@@ -382,4 +382,58 @@ img[alt="main-image"] {
     font-size: 13px;
     width: 90%;
   }
+   form button{
+    color: #6288A5;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    line-height: 13px;
+    text-transform: none;
+    width: 100%;
+    background: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6288A5;
+    border-image: initial;
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 10px;
+   }
+
+   form button:hover{
+     color: #fff;
+     background-color: #6288A5;
+   }
+   form .referral a{
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+   
+   }
+
+   footer{
+     width: 95%;
+     margin: 0 auto;
+   }
+   footer hr{
+     margin: 0px;
+   }
+
+   footer img{
+     width: 195px;
+   }
+   footer .footer-home{
+     float: right;
+     color: rgb(98, 136, 165);
+     font-family: nyt-franklin;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 11px;
+     text-decoration: none;
+   }
 
