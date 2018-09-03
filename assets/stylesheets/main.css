@@ -216,3 +216,57 @@ img[alt="main-image"] {
     margin: 55px auto 10px auto;
     
    }
+
+   p.referral {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 0.64rem;
+    line-height: 0.9rem;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    color: #999;
+    text-align: left;
+   }
+
+   .referral a {
+     text-decoration: none;
+     cursor: pointer;
+     color: #999;
+   }
+
+   .referral a:hover {
+    text-decoration: underline;
+  }
+
+  .share-article i {
+
+    background-color: #eee;
+  border-radius: 30px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 6px;
+  width: 30px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+
+  }
+
+  .blog-roll {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .related-article {
+    display: inline-block;
+    width: 75%;
+    border-top: 1px solid #000;
+  }
+
+  .trending-links {
+    width: 20%;
+    display: inline-block;
+    margin-left: 4%;
+    border-top: 1px solid #000;
+    
+  }
