@@ -260,7 +260,13 @@ img[alt="main-image"] {
   .related-article {
     display: inline-block;
     width: 75%;
+    float: left;
     border-top: 1px solid #000;
+  }
+
+  .related-article h5, .trending-links h5 {
+   font-weight: 600;
+   margin: 20px auto;
   }
 
   .trending-links {
@@ -279,11 +285,26 @@ img[alt="main-image"] {
 
   .box{
     width: 32%;
+    margin-bottom: 14px;
   }
   .box img{
     width: 100%;
   }
-  img[src="./assets/images/space2.jpg"]{
-     margin: auto;
+  .center-box{
+     margin-left: auto;
+     margin-right: auto;
+  }
+
+  .box span{
+    text-align: right;
+    color: rgb(153, 153, 153);
+    font-size: 0.6em;
+    line-height: 1.23em;
+    display: block;
+  }
+
+  .box p span{
+   text-align: left;
+   margin-top: 20px;
   }
 
