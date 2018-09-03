@@ -427,13 +427,34 @@ img[alt="main-image"] {
      width: 195px;
    }
    footer .footer-home{
-     float: right;
-     color: rgb(98, 136, 165);
-     font-family: nyt-franklin;
-     font-size: 11px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: 11px;
-     text-decoration: none;
+    float: right;
+    color: rgb(98, 136, 165);
+    font-family: nyt-franklin;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    text-decoration: none;
+    vertical-align: text-bottom;
+    position: relative;
+    top: 21px;
    }
 
+   .footer-header {
+     margin: 5px 0;
+   }
+
+
+   .quick-links {
+     width: 14%;
+    
+     margin:auto;
+   }
+
+   .quick-links p, .quick-links a {
+     display: block;
+   }
+
+   .separate {
+     border-left: 1px solid #e5e5e5;
+   }
