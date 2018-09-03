@@ -192,3 +192,27 @@ img[alt="main-image"] {
     font-style: normal;
     font-family: nyt-franklin,arial,helvetica,sans-serif;
    }
+.article-video{
+  margin-bottom: 35px;
+}
+   .article-video p{
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-right: 7px;
+    color: #666;
+   
+   }
+   .article-video p span{
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #999;
+    font-size: 0.64rem;
+    line-height: 1rem;
+    margin-left: 5px;
+   }
+
+   .image-content{
+    width: 48%;
+    margin: 55px auto 10px auto;
+    
+   }
