@@ -270,3 +270,20 @@ img[alt="main-image"] {
     border-top: 1px solid #000;
     
   }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .box{
+    width: 32%;
+  }
+  .box img{
+    width: 100%;
+  }
+  img[src="./assets/images/space2.jpg"]{
+     margin: auto;
+  }
+
