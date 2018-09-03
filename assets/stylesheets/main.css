@@ -270,11 +270,10 @@ img[alt="main-image"] {
   }
 
   .trending-links {
-    width: 20%;
+    width: 22%;
     display: inline-block;
-    margin-left: 4%;
+    margin-left: 3%;
     border-top: 1px solid #000;
-    
   }
 
   .container{
@@ -321,6 +320,22 @@ img[alt="main-image"] {
   }
 
   .box a:hover {
+    color: #666;
+  }
+  .trending-links a {
+   text-decoration: none;
+   color: #000;
+  }
+  .trending-links h6 {
+    border-top: 1px solid #e2e2e2;
+   color: #000;
+   font-size: 18px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+  }
+
+  
+  .trending-links a:hover {
     color: #666;
   }
 
