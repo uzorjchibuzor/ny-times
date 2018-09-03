@@ -158,4 +158,37 @@ img[alt="main-image"] {
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
  }
 
- 
+ article h5 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+ }
+
+ article h5+p {
+  font-size: .875rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+  color: #666;
+ }
+ article img {
+   width: 100%;
+   margin-bottom: 20px;
+ }
+   article hr {
+    width: 10%;
+    color: black;
+    margin-left: 0;
+   }
+
+   p.img-owner {
+    margin-bottom: 40px;
+    font-size: .875rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+   }
