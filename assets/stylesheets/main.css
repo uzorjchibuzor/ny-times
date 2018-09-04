@@ -481,11 +481,9 @@ img[alt="main-image"] {
    a.dark-links{
     color: #000;
     font-family: nyt-franklin;
-   font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    
-   
    } 
 
 
@@ -493,4 +491,21 @@ img[alt="main-image"] {
     width: 23px;
     height: 23px;
     vertical-align: text-top;
+   }
+
+   .footer-bottom{
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 0.64rem;
+    line-height: 0.9rem;
+    color: #999;
+    text-align: center;
+    border-top: 1px solid #ebebeb;
+    margin-top: 11px;
+    padding-top: 5px;
+   }
+   .footer-bottom a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #999;
+    margin-right: 15px;
    }
