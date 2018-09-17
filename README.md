@@ -2,8 +2,8 @@
 
 #By
 
-[Chibuzor Efedigbue] (https://www.github.com/uzorjchibuzor)
+[Chibuzor Efedigbue](https://www.github.com/uzorjchibuzor)
 
 and
 
-[David Obele] (https://www.github.com/mrobele)
+[David Obele](https://www.github.com/mrobele)
