@@ -65,6 +65,31 @@ header p a {
   color: black;
 }
 
+div.subscribe-text{
+  text-align: right;
+  padding: 15px;
+}
+
+div.subscribe-text a:first-child{
+  border-right: 1px solid #807b7b78;
+ padding-right: 10px;
+}
+div.subscribe-text a{
+  margin-left: 10px;
+  text-decoration: none;
+  color: #326891;
+  font-size: .7em;
+ }
+
+ i.fa-user{
+  font-size: 1em;
+  margin-right: 0;
+ }
+
+ i.fa-user, .subscribe-text{
+   display: none;
+ }
+
 .article-title {
   width: 70%;
   margin: 55px auto 10px auto;
@@ -508,4 +533,58 @@ img[alt="main-image"] {
     cursor: pointer;
     color: #999;
     margin-right: 15px;
+   }
+
+
+   /* RESPONSIVENESS */
+
+   @media only screen and (max-width:768px)
+   {
+    i.fa-user, .subscribe-text{
+      display: block;
+    }
+
+    i.fa-search, p.cosmos-hidden, div.members button{
+      display: none;
+    }
+
+    .logo {
+      width: 30%;  
+  }
+
+  .article-title{
+    width: 100%;
+  }
+  .article-title p{
+    padding-left: 20px;
+  }
+  .main-content{
+    width: 80%;
+  }
+  h1{
+    left: 11%;
+  }
+
+  .image-content {
+    width: 80%;
+}
+.quick-links {
+  margin: auto;
+  display: block;
+  border-top: 1px solid #eee;
+  padding: 12px 0;
+  width: auto;
+}
+
+footer .container{
+  display: block;
+}
+
+.separate {
+  display: none;
+}
+
+.quick-links a {
+  display: none;
+}
    }
