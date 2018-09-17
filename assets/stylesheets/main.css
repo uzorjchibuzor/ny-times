@@ -1,3 +1,9 @@
+body {
+  width: 100vw;
+
+}
+
+
 
 header{
   padding: 4px 15px 2px 15px;
@@ -101,8 +107,8 @@ img[alt="main-image"] {
 }
 
  h1 {
-    position: relative;
-    left: 160px;
+    position: static;
+    margin-left: 11%;
     margin-bottom: 30px;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     color: #121212;
@@ -549,7 +555,8 @@ img[alt="main-image"] {
     }
 
     .logo {
-      width: 30%;  
+      width: 30%; 
+      left: 36%; 
   }
 
   .article-title{
@@ -561,9 +568,7 @@ img[alt="main-image"] {
   .main-content{
     width: 80%;
   }
-  h1{
-    left: 11%;
-  }
+
 
   .image-content {
     width: 80%;
@@ -586,5 +591,54 @@ footer .container{
 
 .quick-links a {
   display: none;
+}
+
+
+   }
+
+
+
+   @media only screen and (max-width:426px)
+   {
+    .related-article {
+      display: block;
+      width: auto;
+      
+      border-top: 1px solid #000;
+  }
+
+
+  .trending-links {
+   display: none;
+}
+
+.subscribe, .subscribe-form {
+  display: none;
+}
+
+.blog-roll {
+  width: auto;
+
+}
+
+.box {
+  width: 100%;
+}
+
+.box p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box span {
+  padding-right: 10px;
+}
+
+.footer-bottom a:first-child {
+  display: block;
+}
+
+.logo {
+  top: 4px;
 }
    }
